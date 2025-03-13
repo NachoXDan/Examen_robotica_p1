@@ -1,0 +1,327 @@
+[0.671s] Invoking command in '/home/ubuntu/ros2_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ucb_interface -- -j8 -l8
+[0.723s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.901s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.940s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.945s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.954s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.971s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.070s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.466s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.951s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.133s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.159s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.187s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.187s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.187s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.234s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.260s] -- Added test 'lint_cmake' to check CMake code style
+[2.262s] -- Added test 'xmllint' to check XML markup files
+[2.265s] -- Configuring done
+[2.322s] -- Generating done
+[2.338s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/ucb_interface
+[2.368s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.381s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.395s] [  3%] Built target ament_cmake_python_copy_ucb_interface
+[2.687s] running egg_info
+[2.688s] writing ucb_interface.egg-info/PKG-INFO
+[2.689s] writing dependency_links to ucb_interface.egg-info/dependency_links.txt
+[2.689s] writing top-level names to ucb_interface.egg-info/top_level.txt
+[2.692s] reading manifest file 'ucb_interface.egg-info/SOURCES.txt'
+[2.693s] writing manifest file 'ucb_interface.egg-info/SOURCES.txt'
+[2.725s] [  3%] Built target ament_cmake_python_build_ucb_interface_egg
+[2.912s] [  3%] Built target ucb_interface__cpp
+[2.914s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_generator_c[0m
+[2.928s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.929s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.929s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.933s] [ 10%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/msg/detail/num__functions.c.o[0m
+[2.933s] [ 12%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/msg/detail/filtered__functions.c.o[0m
+[2.934s] [ 14%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/msg/detail/sphere__functions.c.o[0m
+[2.938s] [ 16%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_c.dir/rosidl_generator_c/ucb_interface/srv/detail/addtwonumbers__functions.c.o[0m
+[3.053s] [ 18%] [32m[1mLinking C shared library libucb_interface__rosidl_generator_c.so[0m
+[3.112s] [ 18%] Built target ucb_interface__rosidl_generator_c
+[3.131s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.132s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.132s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.332s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_cpp[0m
+[3.357s] [ 27%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/msg/sphere__type_support.cpp.o[0m
+[3.357s] [ 27%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/msg/num__type_support.cpp.o[0m
+[3.357s] [ 29%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/srv/addtwonumbers__type_support.cpp.o[0m
+[3.465s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_introspection_cpp[0m
+[3.494s] [ 30%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/msg/detail/num__type_support.cpp.o[0m
+[3.714s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_c[0m
+[3.735s] [ 32%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/msg/num__type_support.cpp.o[0m
+[3.743s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_fastrtps_cpp[0m
+[3.773s] [ 34%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[3.813s] [ 36%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/msg/sphere__type_support.cpp.o[0m
+[3.878s] [ 38%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/srv/addtwonumbers__type_support.cpp.o[0m
+[3.935s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_introspection_c[0m
+[3.940s] [ 40%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ucb_interface/msg/filtered__type_support.cpp.o[0m
+[3.945s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_fastrtps_c[0m
+[3.951s] [ 41%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ucb_interface/msg/filtered__type_support.cpp.o[0m
+[3.961s] [ 43%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/msg/detail/num__type_support.c.o[0m
+[3.968s] [ 45%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/msg/detail/sphere__type_support.c.o[0m
+[3.982s] [ 47%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/msg/detail/num__type_support_c.cpp.o[0m
+[3.985s] [ 49%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/srv/detail/addtwonumbers__type_support.c.o[0m
+[4.002s] [ 50%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_c.so[0m
+[4.045s] [ 52%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/msg/detail/sphere__type_support_c.cpp.o[0m
+[4.045s] [ 54%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ucb_interface/msg/detail/filtered__type_support.c.o[0m
+[4.059s] [ 56%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/srv/detail/addtwonumbers__type_support_c.cpp.o[0m
+[4.095s] [ 56%] Built target ucb_interface__rosidl_typesupport_c
+[4.111s] [ 58%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ucb_interface/msg/detail/filtered__type_support_c.cpp.o[0m
+[4.113s] [ 60%] [32m[1mLinking C shared library libucb_interface__rosidl_typesupport_introspection_c.so[0m
+[4.193s] [ 60%] Built target ucb_interface__rosidl_typesupport_introspection_c
+[4.209s] [ 61%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/msg/detail/sphere__type_support.cpp.o[0m
+[4.257s] [ 63%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[4.480s] [ 65%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_cpp.so[0m
+[4.575s] [ 65%] Built target ucb_interface__rosidl_typesupport_cpp
+[4.593s] [ 67%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/srv/detail/addtwonumbers__type_support.cpp.o[0m
+[4.593s] [ 69%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ucb_interface/msg/detail/filtered__type_support.cpp.o[0m
+[4.658s] [ 70%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/srv/detail/dds_fastrtps/addtwonumbers__type_support.cpp.o[0m
+[4.708s] [ 72%] [32mBuilding CXX object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ucb_interface/msg/detail/dds_fastrtps/filtered__type_support.cpp.o[0m
+[4.777s] [ 74%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_fastrtps_c.so[0m
+[4.956s] [ 74%] Built target ucb_interface__rosidl_typesupport_fastrtps_c
+[5.204s] [ 76%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_introspection_cpp.so[0m
+[5.295s] [ 76%] Built target ucb_interface__rosidl_typesupport_introspection_cpp
+[5.321s] [ 78%] [32m[1mLinking CXX shared library libucb_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.421s] [ 78%] Built target ucb_interface__rosidl_typesupport_fastrtps_cpp
+[5.449s] [ 78%] Built target ucb_interface
+[5.478s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.102s] [ 80%] Built target ucb_interface__py
+[6.115s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_generator_py[0m
+[6.136s] [ 83%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/msg/_num_s.c.o[0m
+[6.137s] [ 83%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/msg/_sphere_s.c.o[0m
+[6.137s] [ 85%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/srv/_addtwonumbers_s.c.o[0m
+[6.137s] [ 87%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_generator_py.dir/rosidl_generator_py/ucb_interface/msg/_filtered_s.c.o[0m
+[6.289s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/libucb_interface__rosidl_generator_py.so[0m
+[6.343s] [ 89%] Built target ucb_interface__rosidl_generator_py
+[6.356s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.356s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_c__pyext[0m
+[6.356s] [35m[1mConsolidate compiler generated dependencies of target ucb_interface__rosidl_typesupport_introspection_c__pyext[0m
+[6.372s] [ 94%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.372s] [ 94%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[6.372s] [ 94%] [32mBuilding C object CMakeFiles/ucb_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.511s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.512s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.512s] [100%] [32m[1mLinking C shared library rosidl_generator_py/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.563s] [100%] Built target ucb_interface__rosidl_typesupport_fastrtps_c__pyext
+[6.564s] [100%] Built target ucb_interface__rosidl_typesupport_introspection_c__pyext
+[6.564s] [100%] Built target ucb_interface__rosidl_typesupport_c__pyext
+[6.578s] Invoked command in '/home/ubuntu/ros2_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ucb_interface -- -j8 -l8
+[6.581s] Invoking command in '/home/ubuntu/ros2_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ucb_interface
+[6.589s] -- Install configuration: ""
+[6.590s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/rosidl_interfaces/ucb_interface
+[6.590s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.590s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.590s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/filtered.h
+[6.590s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.590s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__functions.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__functions.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__type_support.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__functions.c
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__struct.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__type_support.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__functions.c
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__struct.h
+[6.591s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__type_support.h
+[6.592s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__functions.c
+[6.592s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__functions.h
+[6.592s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__struct.h
+[6.592s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/num.h
+[6.592s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/sphere.h
+[6.592s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_generator_c__visibility_control.h
+[6.592s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.592s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__functions.c
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__functions.h
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__type_support.h
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__struct.h
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/addtwonumbers.h
+[6.593s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/library_path.sh
+[6.593s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/library_path.dsv
+[6.594s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_c.so
+[6.595s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_c.so" to ""
+[6.595s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.596s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.596s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.596s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[6.596s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[6.596s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__rosidl_typesupport_fastrtps_c.h
+[6.596s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.596s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.596s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.597s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__rosidl_typesupport_fastrtps_c.h
+[6.597s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_c.so
+[6.598s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[6.598s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.598s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.598s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/sphere.hpp
+[6.598s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/filtered.hpp
+[6.598s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.598s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__type_support.hpp
+[6.598s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__traits.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__builder.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__builder.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__traits.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__struct.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__type_support.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__struct.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__builder.hpp
+[6.599s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__traits.hpp
+[6.600s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__type_support.hpp
+[6.600s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__struct.hpp
+[6.600s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/num.hpp
+[6.600s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.601s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.601s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.601s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__type_support.hpp
+[6.601s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__struct.hpp
+[6.601s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__traits.hpp
+[6.601s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__builder.hpp
+[6.601s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/addtwonumbers.hpp
+[6.601s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.601s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.602s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.602s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[6.602s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/dds_fastrtps
+[6.602s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__rosidl_typesupport_fastrtps_cpp.hpp
+[6.602s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[6.602s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.603s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.603s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.603s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/dds_fastrtps
+[6.603s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__rosidl_typesupport_fastrtps_cpp.hpp
+[6.603s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_cpp.so
+[6.604s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.604s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.604s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.604s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.604s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.604s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__type_support.c
+[6.604s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__type_support.c
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__type_support.c
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__rosidl_typesupport_introspection_c.h
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__rosidl_typesupport_introspection_c.h
+[6.605s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.605s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__type_support.c
+[6.605s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__rosidl_typesupport_introspection_c.h
+[6.606s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_c.so
+[6.607s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_c.so" to ""
+[6.607s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_c.so
+[6.608s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_c.so" to ""
+[6.608s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface
+[6.609s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg
+[6.609s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/num__type_support.cpp
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/sphere__type_support.cpp
+[6.609s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/msg/detail/filtered__type_support.cpp
+[6.610s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv
+[6.610s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail
+[6.610s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__type_support.cpp
+[6.610s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/include/ucb_interface/ucb_interface/srv/detail/addtwonumbers__rosidl_typesupport_introspection_cpp.hpp
+[6.611s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_cpp.so
+[6.611s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[6.612s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_cpp.so
+[6.613s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_typesupport_cpp.so" to ""
+[6.613s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/pythonpath.sh
+[6.613s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/pythonpath.dsv
+[6.613s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info
+[6.613s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.613s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.614s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[6.614s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface-0.0.0-py3.10.egg-info/top_level.txt
+[6.614s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface
+[6.614s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/libucb_interface__rosidl_generator_py.so
+[6.614s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.614s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg
+[6.614s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_num.py
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/__init__.py
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_sphere.py
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_num_s.c
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_filtered_s.c
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_filtered.py
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_sphere_s.c
+[6.615s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.616s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_introspection_c.c
+[6.616s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_c.c
+[6.616s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/__init__.py
+[6.616s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.617s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv
+[6.617s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv/__init__.py
+[6.617s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv/_addtwonumbers.py
+[6.617s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv/_addtwonumbers_s.c
+[6.617s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/_ucb_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.663s] Listing '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface'...
+[6.663s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/__init__.py'...
+[6.663s] Listing '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/__init__.py'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_filtered.py'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_num.py'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/msg/_sphere.py'...
+[6.664s] Listing '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv/__init__.py'...
+[6.664s] Compiling '/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/srv/_addtwonumbers.py'...
+[6.669s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.670s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.670s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.671s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.671s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.672s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/local/lib/python3.10/dist-packages/ucb_interface/ucb_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.673s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_py.so
+[6.674s] -- Set runtime path of "/home/ubuntu/ros2_ws/install/ucb_interface/lib/libucb_interface__rosidl_generator_py.so" to ""
+[6.674s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Num.idl
+[6.674s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Sphere.idl
+[6.674s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/srv/Addtwonumbers.idl
+[6.674s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Filtered.idl
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Num.msg
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Sphere.msg
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/srv/Addtwonumbers.srv
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/srv/Addtwonumbers_Request.msg
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/srv/Addtwonumbers_Response.msg
+[6.675s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/msg/Filtered.msg
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/package_run_dependencies/ucb_interface
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/parent_prefix_path/ucb_interface
+[6.675s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.sh
+[6.676s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.dsv
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/path.sh
+[6.676s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/path.dsv
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.bash
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.sh
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.zsh
+[6.676s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.dsv
+[6.676s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/package.dsv
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/packages/ucb_interface
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cExport.cmake
+[6.676s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cExport-noconfig.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_cppExport.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cExport.cmake
+[6.677s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.678s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cExport.cmake
+[6.678s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cExport-noconfig.cmake
+[6.678s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cppExport.cmake
+[6.678s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cppExport.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_pyExport.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/export_ucb_interface__rosidl_generator_pyExport-noconfig.cmake
+[6.679s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake-extras.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.679s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ament_cmake_export_targets-extras.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig-version.cmake
+[6.680s] -- Up-to-date: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/package.xml
+[6.683s] Invoked command in '/home/ubuntu/ros2_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ucb_interface

@@ -1,0 +1,7 @@
+[console_scripts]
+prom = ex_2.prom:main
+pub_s1 = ex_2.pub_s1:main
+pub_s2 = ex_2.pub_s2:main
+pub_s3 = ex_2.pub_s3:main
+sub_filt = ex_2.sub_filt:main
+

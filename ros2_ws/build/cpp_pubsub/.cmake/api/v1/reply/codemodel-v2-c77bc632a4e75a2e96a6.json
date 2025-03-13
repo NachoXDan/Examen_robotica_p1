@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-22047da9e7d973f8780d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_pubsub",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_pubsub_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_pubsub_uninstall-30edf9e609560b366a4d.json",
+					"name" : "cpp_pubsub_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pub-f1774e2b377ee497af75.json",
+					"name" : "pub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pub_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pub_sub-23409a8aa08378255631.json",
+					"name" : "pub_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sub-2927bf6ba61d844c0ac5.json",
+					"name" : "sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2d32e4f208749da31f36.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/ros2_ws/build/cpp_pubsub",
+		"source" : "/home/ubuntu/ros2_ws/src/cpp_pubsub"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

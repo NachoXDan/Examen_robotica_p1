@@ -1,0 +1,9 @@
+{
+  "package_name": "ucb_interface",
+  "non_idl_tuples": [
+    "/home/ubuntu/ros2_ws/src/ucb_interface:msg/Num.msg",
+    "/home/ubuntu/ros2_ws/src/ucb_interface:msg/Sphere.msg",
+    "/home/ubuntu/ros2_ws/src/ucb_interface:srv/Addtwonumbers.srv",
+    "/home/ubuntu/ros2_ws/src/ucb_interface:msg/Filtered.msg"
+  ]
+}

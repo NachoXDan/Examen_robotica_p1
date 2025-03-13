@@ -1,0 +1,46 @@
+[1.122s] Invoking command in '/home/ubuntu/ros2_ws/src/ex_2': PYTHONPATH=/home/ubuntu/ros2_ws/build/ex_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_2 build --build-base /home/ubuntu/ros2_ws/build/ex_2/build install --record /home/ubuntu/ros2_ws/build/ex_2/install.log --single-version-externally-managed install_data
+[1.394s] running egg_info
+[1.395s] creating ../../build/ex_2/ex_2.egg-info
+[1.395s] writing ../../build/ex_2/ex_2.egg-info/PKG-INFO
+[1.395s] writing dependency_links to ../../build/ex_2/ex_2.egg-info/dependency_links.txt
+[1.396s] writing entry points to ../../build/ex_2/ex_2.egg-info/entry_points.txt
+[1.396s] writing requirements to ../../build/ex_2/ex_2.egg-info/requires.txt
+[1.396s] writing top-level names to ../../build/ex_2/ex_2.egg-info/top_level.txt
+[1.396s] writing manifest file '../../build/ex_2/ex_2.egg-info/SOURCES.txt'
+[1.398s] reading manifest file '../../build/ex_2/ex_2.egg-info/SOURCES.txt'
+[1.398s] adding license file 'LICENSE'
+[1.399s] writing manifest file '../../build/ex_2/ex_2.egg-info/SOURCES.txt'
+[1.399s] running build
+[1.399s] running build_py
+[1.399s] creating /home/ubuntu/ros2_ws/build/ex_2/build
+[1.400s] creating /home/ubuntu/ros2_ws/build/ex_2/build/lib
+[1.400s] creating /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2
+[1.400s] copying ex_2/sub_filt.py -> /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2
+[1.400s] copying ex_2/prom.py -> /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2
+[1.400s] copying ex_2/__init__.py -> /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2
+[1.401s] copying ex_2/pub_s1.py -> /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2
+[1.401s] running install
+[1.401s] running install_lib
+[1.402s] creating /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2
+[1.403s] copying /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2/sub_filt.py -> /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2
+[1.403s] copying /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2/prom.py -> /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2
+[1.403s] copying /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2/__init__.py -> /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2
+[1.403s] copying /home/ubuntu/ros2_ws/build/ex_2/build/lib/ex_2/pub_s1.py -> /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2
+[1.404s] byte-compiling /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2/sub_filt.py to sub_filt.cpython-310.pyc
+[1.405s] byte-compiling /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2/prom.py to prom.cpython-310.pyc
+[1.405s] byte-compiling /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2/__init__.py to __init__.cpython-310.pyc
+[1.405s] byte-compiling /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2/pub_s1.py to pub_s1.cpython-310.pyc
+[1.406s] running install_data
+[1.407s] creating /home/ubuntu/ros2_ws/install/ex_2/share/ament_index
+[1.407s] creating /home/ubuntu/ros2_ws/install/ex_2/share/ament_index/resource_index
+[1.407s] creating /home/ubuntu/ros2_ws/install/ex_2/share/ament_index/resource_index/packages
+[1.407s] copying resource/ex_2 -> /home/ubuntu/ros2_ws/install/ex_2/share/ament_index/resource_index/packages
+[1.407s] copying package.xml -> /home/ubuntu/ros2_ws/install/ex_2/share/ex_2
+[1.408s] running install_egg_info
+[1.409s] Copying ../../build/ex_2/ex_2.egg-info to /home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages/ex_2-0.0.0-py3.10.egg-info
+[1.411s] running install_scripts
+[1.439s] Installing prom script to /home/ubuntu/ros2_ws/install/ex_2/lib/ex_2
+[1.439s] Installing pub_s1 script to /home/ubuntu/ros2_ws/install/ex_2/lib/ex_2
+[1.439s] Installing sub_filt script to /home/ubuntu/ros2_ws/install/ex_2/lib/ex_2
+[1.440s] writing list of installed files to '/home/ubuntu/ros2_ws/build/ex_2/install.log'
+[1.475s] Invoked command in '/home/ubuntu/ros2_ws/src/ex_2' returned '0': PYTHONPATH=/home/ubuntu/ros2_ws/build/ex_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/ros2_ws/install/ex_2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ex_2 build --build-base /home/ubuntu/ros2_ws/build/ex_2/build install --record /home/ubuntu/ros2_ws/build/ex_2/install.log --single-version-externally-managed install_data

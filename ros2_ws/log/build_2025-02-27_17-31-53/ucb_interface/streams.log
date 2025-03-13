@@ -1,0 +1,42 @@
+[0.317s] Invoking command in '/home/ubuntu/ros2_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/ucb_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ucb_interface
+[0.434s] -- The C compiler identification is GNU 11.4.0
+[0.565s] -- The CXX compiler identification is GNU 11.4.0
+[0.575s] -- Detecting C compiler ABI info
+[0.672s] -- Detecting C compiler ABI info - done
+[0.681s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.682s] -- Detecting C compile features
+[0.683s] -- Detecting C compile features - done
+[0.687s] -- Detecting CXX compiler ABI info
+[0.800s] -- Detecting CXX compiler ABI info - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.818s] -- Detecting CXX compile features
+[0.819s] -- Detecting CXX compile features - done
+[0.824s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.027s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.143s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.263s] -- Added test 'lint_cmake' to check CMake code style
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.266s] -- Configuring done
+[1.270s] -- Generating done
+[1.271s] -- Build files have been written to: /home/ubuntu/ros2_ws/build/ucb_interface
+[1.276s] Invoked command in '/home/ubuntu/ros2_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros2_ws/src/ucb_interface -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros2_ws/install/ucb_interface
+[1.278s] Invoking command in '/home/ubuntu/ros2_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ucb_interface -- -j8 -l8
+[1.322s] Invoked command in '/home/ubuntu/ros2_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros2_ws/build/ucb_interface -- -j8 -l8
+[1.324s] Invoking command in '/home/ubuntu/ros2_ws/build/ucb_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ucb_interface
+[1.333s] -- Install configuration: ""
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/package_run_dependencies/ucb_interface
+[1.333s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/parent_prefix_path/ucb_interface
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.sh
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/ament_prefix_path.dsv
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/path.sh
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/environment/path.dsv
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.bash
+[1.334s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.sh
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.zsh
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/local_setup.dsv
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/package.dsv
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ament_index/resource_index/packages/ucb_interface
+[1.335s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig.cmake
+[1.336s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/cmake/ucb_interfaceConfig-version.cmake
+[1.336s] -- Installing: /home/ubuntu/ros2_ws/install/ucb_interface/share/ucb_interface/package.xml
+[1.338s] Invoked command in '/home/ubuntu/ros2_ws/build/ucb_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/ros2_ws/install/my_package_class:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros2_ws/build/ucb_interface
