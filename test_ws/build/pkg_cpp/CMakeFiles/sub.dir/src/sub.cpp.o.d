@@ -1,5 +1,5 @@
 CMakeFiles/sub.dir/src/sub.cpp.o: \
- /home/leyla/Desktop/prueba/test_ws/src/pkg_cpp/src/sub.cpp \
+ /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/pkg_cpp/src/sub.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

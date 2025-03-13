@@ -1,8 +1,8 @@
-# Install script for directory: /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py
+# Install script for directory: /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/leyla/Desktop/prueba/test_ws/install/interface")
+  set(CMAKE_INSTALL_PREFIX "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/install/interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

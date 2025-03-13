@@ -1,9 +1,9 @@
 {
   "package_name": "interface",
-  "output_dir": "/home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_typesupport_fastrtps_cpp/interface",
+  "output_dir": "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_typesupport_fastrtps_cpp/interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_adapter/interface:srv/Service.idl"
+    "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_adapter/interface:srv/Service.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
@@ -14,6 +14,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_adapter/interface/srv/Service.idl"
+    "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_adapter/interface/srv/Service.idl"
   ]
 }

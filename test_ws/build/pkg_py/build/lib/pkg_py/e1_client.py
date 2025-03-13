@@ -49,6 +49,24 @@ def main():
     rclpy.spin_until_future_complete(minimal_client, future)
 
     response = future.result()
+
+
+    configurations = []
+
+    configurations.append({
+        'a1': a1,
+        'a2': a2,
+        'a3': a3,
+        'a4': a4,
+        'x': response.x,
+        'y': response.y,
+        'z': response.z,
+        'ya': response.ya,
+        'pi': response.pi,
+        'ro': response.ro
+    })
+
+
     minimal_client.get_logger().info(
         '\t Valores enviados:\n'
         'a1: %.2f, a2: %.2f, a3: %.2f, a4: %.2f \n'

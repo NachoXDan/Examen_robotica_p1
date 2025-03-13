@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leyla/Desktop/prueba/test_ws/src/interface
+CMAKE_SOURCE_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leyla/Desktop/prueba/test_ws/build/interface
+CMAKE_BINARY_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface
 
 # Utility rule file for interface_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/interface_uninstall.dir/compiler_depend.make
 include CMakeFiles/interface_uninstall.dir/progress.make
 
 CMakeFiles/interface_uninstall:
-	/usr/bin/cmake -P /home/leyla/Desktop/prueba/test_ws/build/interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 interface_uninstall: CMakeFiles/interface_uninstall
 interface_uninstall: CMakeFiles/interface_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/interface_uninstall.dir/clean:
 .PHONY : CMakeFiles/interface_uninstall.dir/clean
 
 CMakeFiles/interface_uninstall.dir/depend:
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface/CMakeFiles/interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/CMakeFiles/interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interface_uninstall.dir/depend
 

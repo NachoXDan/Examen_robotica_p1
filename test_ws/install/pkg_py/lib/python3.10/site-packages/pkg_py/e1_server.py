@@ -15,7 +15,7 @@ class MinimalService(Node):
         L1 = 69.5
         L2 = 71.5
 
-        # Convertir los ángulos de grados a radianes
+        # grados a radianes
         a1_rad = sp.rad(req.a1)
         a2_rad = sp.rad(req.a2)
         a3_rad = sp.rad(req.a3)
@@ -67,7 +67,7 @@ class MinimalService(Node):
         # Calcular la matriz M
         M = Rx1 * Ry1 * Tz1 * Ry2 * Tz2 * Ry3
 
-        # Simplificar la matriz M multiplicada por el vector [0, 0, 0, 1]
+        # 
         M_simplified = (M * sp.Matrix([0, 0, 0, 1])).evalf()
 
         # Extraer los valores de x, y, z
@@ -75,9 +75,9 @@ class MinimalService(Node):
 
         # Extraer matriz de rotación y calcular los ángulos de Euler
         R = M[:3, :3]
-        yaw = sp.atan2(R[1, 0], R[0, 0])
-        pitch = sp.atan2(-R[2, 0], sp.sqrt(R[2, 1]**2 + R[2, 2]**2))
-        roll = sp.atan2(R[2, 1], R[2, 2])
+        yaw = sp.atan2(R[1, 0], R[0, 0]) * 180 / sp.pi
+        pitch = sp.atan2(-R[2, 0], sp.sqrt(R[2, 1]**2 + R[2, 2]**2)) * 180 / sp.pi
+        roll = sp.atan2(R[2, 1], R[2, 2])  * 180 / sp.pi
 
         # Enviar respuesta
         response.x = float(x)

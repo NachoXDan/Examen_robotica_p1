@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leyla/Desktop/prueba/test_ws/src/interface
+CMAKE_SOURCE_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leyla/Desktop/prueba/test_ws/build/interface
+CMAKE_BINARY_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface
 
 # Utility rule file for interface__py.
 
@@ -87,8 +87,8 @@ rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface/srv/Service.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leyla/Desktop/prueba/test_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface/_interface_s.ep.rosidl_typesupport_introspection_c.c
@@ -120,10 +120,10 @@ interface__py/CMakeFiles/interface__py.dir/build: interface__py
 .PHONY : interface__py/CMakeFiles/interface__py.dir/build
 
 interface__py/CMakeFiles/interface__py.dir/clean:
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py && $(CMAKE_COMMAND) -P CMakeFiles/interface__py.dir/cmake_clean.cmake
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py && $(CMAKE_COMMAND) -P CMakeFiles/interface__py.dir/cmake_clean.cmake
 .PHONY : interface__py/CMakeFiles/interface__py.dir/clean
 
 interface__py/CMakeFiles/interface__py.dir/depend:
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py /home/leyla/Desktop/prueba/test_ws/build/interface/interface__py/CMakeFiles/interface__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/interface__py/CMakeFiles/interface__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interface__py/CMakeFiles/interface__py.dir/depend
 

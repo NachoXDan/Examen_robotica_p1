@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_typesupport_c/interface/srv/service__type_support.cpp" "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/service__type_support.cpp.o" "gcc" "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/service__type_support.cpp.o.d"
+  "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_typesupport_c/interface/srv/service__type_support.cpp" "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/service__type_support.cpp.o" "gcc" "CMakeFiles/interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface/srv/service__type_support.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/leyla/Desktop/prueba/test_ws/build/interface/CMakeFiles/interface__rosidl_generator_c.dir/DependInfo.cmake"
+  "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/CMakeFiles/interface__rosidl_generator_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

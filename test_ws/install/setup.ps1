@@ -27,6 +27,7 @@ _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/clase1_alone/
 _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/clase1_alone/prac1_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/clase1_alone/sol_clase_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/revisiones/alejandro_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/prueba/test_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/robotica_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/leyla/Desktop/repositorio_lipa/robotica_1/install\local_setup.ps1"
 

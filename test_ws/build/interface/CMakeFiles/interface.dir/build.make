@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leyla/Desktop/prueba/test_ws/src/interface
+CMAKE_SOURCE_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leyla/Desktop/prueba/test_ws/build/interface
+CMAKE_BINARY_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface
 
 # Utility rule file for interface.
 
@@ -66,7 +66,7 @@ include CMakeFiles/interface.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/interface.dir/progress.make
 
-CMakeFiles/interface: /home/leyla/Desktop/prueba/test_ws/src/interface/srv/Service.srv
+CMakeFiles/interface: /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface/srv/Service.srv
 CMakeFiles/interface: rosidl_cmake/srv/Service_Request.msg
 CMakeFiles/interface: rosidl_cmake/srv/Service_Response.msg
 
@@ -83,6 +83,6 @@ CMakeFiles/interface.dir/clean:
 .PHONY : CMakeFiles/interface.dir/clean
 
 CMakeFiles/interface.dir/depend:
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface/CMakeFiles/interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/CMakeFiles/interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/interface.dir/depend
 

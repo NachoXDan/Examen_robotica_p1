@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/leyla/Desktop/prueba/test_ws/src/pkg_cpp/src/sub.cpp" "CMakeFiles/sub.dir/src/sub.cpp.o" "gcc" "CMakeFiles/sub.dir/src/sub.cpp.o.d"
+  "/home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/pkg_cpp/src/sub.cpp" "CMakeFiles/sub.dir/src/sub.cpp.o" "gcc" "CMakeFiles/sub.dir/src/sub.cpp.o.d"
   )
 
 # Targets to which this target links.

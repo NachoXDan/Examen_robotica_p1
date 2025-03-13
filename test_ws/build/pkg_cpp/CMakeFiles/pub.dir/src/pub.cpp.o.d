@@ -1,5 +1,5 @@
 CMakeFiles/pub.dir/src/pub.cpp.o: \
- /home/leyla/Desktop/prueba/test_ws/src/pkg_cpp/src/pub.cpp \
+ /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/pkg_cpp/src/pub.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/type_traits \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

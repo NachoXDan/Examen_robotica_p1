@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leyla/Desktop/prueba/test_ws/src/interface
+CMAKE_SOURCE_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leyla/Desktop/prueba/test_ws/build/interface
+CMAKE_BINARY_DIR = /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface
 
 # Utility rule file for ament_cmake_python_copy_interface.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_copy_interface.dir/compiler_depend.make
 include CMakeFiles/ament_cmake_python_copy_interface.dir/progress.make
 
 CMakeFiles/ament_cmake_python_copy_interface:
-	/usr/bin/cmake -E copy_directory /home/leyla/Desktop/prueba/test_ws/build/interface/rosidl_generator_py/interface /home/leyla/Desktop/prueba/test_ws/build/interface/ament_cmake_python/interface/interface
+	/usr/bin/cmake -E copy_directory /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/rosidl_generator_py/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/ament_cmake_python/interface/interface
 
 ament_cmake_python_copy_interface: CMakeFiles/ament_cmake_python_copy_interface
 ament_cmake_python_copy_interface: CMakeFiles/ament_cmake_python_copy_interface.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_copy_interface.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_copy_interface.dir/clean
 
 CMakeFiles/ament_cmake_python_copy_interface.dir/depend:
-	cd /home/leyla/Desktop/prueba/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/src/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface /home/leyla/Desktop/prueba/test_ws/build/interface/CMakeFiles/ament_cmake_python_copy_interface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/src/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface /home/leyla/Desktop/ROBOTICA_P1/Examen_robotica_p1/test_ws/build/interface/CMakeFiles/ament_cmake_python_copy_interface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_copy_interface.dir/depend
 
